@@ -1,0 +1,463 @@
+Dec 10, 2015 1:33:21 PM ConnectorLogger logconfig
+CONFIG: Reading Configuration Information for IndigoVison Connector
+Dec 10, 2015 1:33:21 PM ConnectorLogger logconfig
+CONFIG: Setting Configurion Information for IndigoVison Connector
+Dec 10, 2015 1:33:21 PM ConnectorLogger logconfig
+CONFIG: 0 : {"MetaData_Q":"INDIGO_BWC_Q","Userid":"BWC_User","QMGR":"BDYQMGR","INDIGO_User":"recorderAdmin","Host":"172.27.52.81","ConnectorName":"IndigoVison Connector","INDIGO_Webserver":"http:\/\/localhost:9080\/api\/account\/login","Password":"ibmgsc","SrvChannel":"BWC_CHANNEL"}
+Dec 10, 2015 1:33:21 PM ConnectorLogger loginfo
+INFO: Connecting to queue manager: BDYQMGR
+Dec 10, 2015 1:33:22 PM ConnectorLogger loginfo
+INFO: Successfully Connected to queue manager: BDYQMGR
+Dec 10, 2015 1:33:22 PM ConnectorLogger loginfo
+INFO: Accessing queue: INDIGO_BWC_Q
+Dec 10, 2015 1:33:22 PM ConnectorLogger loginfo
+INFO: Next run...
+Dec 10, 2015 1:33:22 PM ConnectorLogger loginfo
+INFO: Reading IndigoVision Test File
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: today: Thu Dec 10 13:33:23 CST 2015 MilliSeconds: 1449430403048
+
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-123639UTC-0600.mp4 StartTime: Mon Dec 07 12:36:39 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449513399335 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: And it is greater than  today's time
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Check if startTime > LasteststarttimeSent which is 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: And it is greater than  previous start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending meta-data to queue for PSS-20151207-123639UTC-0600.mp4
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: JSON string is [{"isLocal":true,"deviceName":"401083","operator":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"isRestricted":false,"name":"PSS-20151207-123639UTC-0600.mp4","durationSeconds":163.66902222222222,"deviceLongId":"00:c0:d4:40:10:83","isDeleted":false,"startTime":1449513399335,"urn":"e22a7d72edd77b53bcbccd610e533ecd","owner":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"allowedActions":"ptomMDOTsduxrlacif","downloadTime":1449513584590,"id":7244,"incidentCount":0}]
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending a message to the queue.
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-122139UTC-0600.mp4 StartTime: Mon Dec 07 12:21:39 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449512499257 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: And it is greater than  today's time
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Check if startTime > LasteststarttimeSent which is 1449513399335
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending meta-data to queue for PSS-20151207-122139UTC-0600.mp4
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: JSON string is [{"isLocal":true,"deviceName":"401083","operator":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"isRestricted":false,"name":"PSS-20151207-122139UTC-0600.mp4","durationSeconds":900.0787444444444,"deviceLongId":"00:c0:d4:40:10:83","isDeleted":false,"startTime":1449512499257,"urn":"9c44cdb697859ac029d4b2e5753c16d2","owner":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"allowedActions":"ptomMDOTsduxrlacif","downloadTime":1449513612372,"id":7243,"incidentCount":0}]
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending a message to the queue.
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-122008UTC-0600.mp4 StartTime: Mon Dec 07 12:20:08 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449512408507 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: And it is greater than  today's time
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Check if startTime > LasteststarttimeSent which is 1449513399335
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending meta-data to queue for PSS-20151207-122008UTC-0600.mp4
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: JSON string is [{"isLocal":true,"deviceName":"401083","operator":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"isRestricted":false,"name":"PSS-20151207-122008UTC-0600.mp4","durationSeconds":6.668522222222222,"deviceLongId":"00:c0:d4:40:10:83","isDeleted":false,"startTime":1449512408507,"urn":"3e0a88d071fe9eb389aa6a3a686ce892","owner":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"allowedActions":"ptomMDOTsduxrlacif","downloadTime":1449512429110,"id":7242,"incidentCount":0}]
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending a message to the queue.
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-121546UTC-0600.mp4 StartTime: Mon Dec 07 12:15:46 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449512146319 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: And it is greater than  today's time
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Check if startTime > LasteststarttimeSent which is 1449513399335
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending meta-data to queue for PSS-20151207-121546UTC-0600.mp4
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: JSON string is [{"isLocal":true,"deviceName":"401083","operator":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"isRestricted":false,"name":"PSS-20151207-121546UTC-0600.mp4","durationSeconds":4.8395222222222225,"deviceLongId":"00:c0:d4:40:10:83","isDeleted":false,"startTime":1449512146319,"urn":"b10f86c1ac57dde425cac928fb82be0e","owner":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"allowedActions":"ptomMDOTsduxrlacif","downloadTime":1449512171395,"id":7241,"incidentCount":0}]
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending a message to the queue.
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-121537UTC-0600.mp4 StartTime: Mon Dec 07 12:15:37 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449512137149 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: And it is greater than  today's time
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Check if startTime > LasteststarttimeSent which is 1449513399335
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending meta-data to queue for PSS-20151207-121537UTC-0600.mp4
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: JSON string is [{"isLocal":true,"deviceName":"401083","operator":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"isRestricted":false,"name":"PSS-20151207-121537UTC-0600.mp4","durationSeconds":4.862466666666666,"deviceLongId":"00:c0:d4:40:10:83","isDeleted":false,"startTime":1449512137149,"urn":"c2bedbc732d67a2d3b9a2b5b9b6cfb2f","owner":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"allowedActions":"ptomMDOTsduxrlacif","downloadTime":1449512171778,"id":7240,"incidentCount":0}]
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending a message to the queue.
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-104336UTC-0600.mp4 StartTime: Mon Dec 07 10:43:36 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449506616551 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: And it is greater than  today's time
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Check if startTime > LasteststarttimeSent which is 1449513399335
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending meta-data to queue for PSS-20151207-104336UTC-0600.mp4
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: JSON string is [{"isLocal":true,"deviceName":"401083","operator":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"isRestricted":false,"name":"PSS-20151207-104336UTC-0600.mp4","durationSeconds":875.4003111111111,"deviceLongId":"00:c0:d4:40:10:83","isDeleted":false,"startTime":1449506616551,"urn":"abd888e08b9f9621b69d1779b45dc2f3","owner":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"allowedActions":"ptomMDOTsduxrlacif","downloadTime":1449507535438,"id":7239,"incidentCount":0}]
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending a message to the queue.
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-102836UTC-0600.mp4 StartTime: Mon Dec 07 10:28:36 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449505716513 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: And it is greater than  today's time
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Check if startTime > LasteststarttimeSent which is 1449513399335
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending meta-data to queue for PSS-20151207-102836UTC-0600.mp4
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: JSON string is [{"isLocal":true,"deviceName":"401083","operator":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"isRestricted":false,"name":"PSS-20151207-102836UTC-0600.mp4","durationSeconds":900.0383555555555,"deviceLongId":"00:c0:d4:40:10:83","isDeleted":false,"startTime":1449505716513,"urn":"3a81a175b7dc49a1e6208650ad2f0005","owner":{"name":"Sgt. Drew Brantley","id":2541,"displayName":"Sgt. Drew Brantley"},"allowedActions":"ptomMDOTsduxrlacif","downloadTime":1449507563425,"id":7238,"incidentCount":0}]
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Sending a message to the queue.
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151203-112545UTC-0600.pss StartTime: Thu Dec 03 11:25:45 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449163545335 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151203-112545UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151203-105517UTC-0600.pss StartTime: Thu Dec 03 10:55:17 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449161717861 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151203-105517UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151203-104017UTC-0600.pss StartTime: Thu Dec 03 10:40:17 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449160817783 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151203-104017UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-131404UTC-0500.pss StartTime: Wed Dec 02 12:14:04 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449080044223 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-131404UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-125904UTC-0500.pss StartTime: Wed Dec 02 11:59:04 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449079144704 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-125904UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-124405UTC-0500.pss StartTime: Wed Dec 02 11:44:05 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449078245185 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-124405UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-122905UTC-0500.pss StartTime: Wed Dec 02 11:29:05 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449077345667 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-122905UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-121406UTC-0500.pss StartTime: Wed Dec 02 11:14:06 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449076446148 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-121406UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-115906UTC-0500.pss StartTime: Wed Dec 02 10:59:06 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449075546630 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-115906UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-114407UTC-0500.pss StartTime: Wed Dec 02 10:44:07 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449074647111 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-114407UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-112907UTC-0500.pss StartTime: Wed Dec 02 10:29:07 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449073747593 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-112907UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-111408UTC-0500.pss StartTime: Wed Dec 02 10:14:08 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449072848074 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-111408UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-105908UTC-0500.pss StartTime: Wed Dec 02 09:59:08 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449071948556 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-105908UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-104409UTC-0500.pss StartTime: Wed Dec 02 09:44:09 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449071049037 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-104409UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-102909UTC-0500.pss StartTime: Wed Dec 02 09:29:09 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449070149519 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-102909UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-101409UTC-0500.pss StartTime: Wed Dec 02 09:14:09 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449069249920 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-101409UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151202-095910UTC-0500.pss StartTime: Wed Dec 02 08:59:10 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449068350402 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151202-095910UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151201-161307UTC-0500.pss StartTime: Tue Dec 01 15:13:07 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449004387941 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151201-161307UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151117-102853UTC-0600.pss StartTime: Tue Nov 17 10:28:53 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447777733808 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151117-102853UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151117-102138UTC-0600.pss StartTime: Tue Nov 17 10:21:38 CST 2015 ownerName: P deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447777298769 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151117-102138UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-153836UTC-0600.pss StartTime: Mon Nov 16 15:38:36 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447709916521 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-153836UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-153824UTC-0600.pss StartTime: Mon Nov 16 15:38:24 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447709904482 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-153824UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-153814UTC-0600.pss StartTime: Mon Nov 16 15:38:14 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447709894665 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-153814UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-153607UTC-0600.pss StartTime: Mon Nov 16 15:36:07 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447709767764 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-153607UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-151114UTC-0600.pss StartTime: Mon Nov 16 15:11:14 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447708274995 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-151114UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-145620UTC-0600.pss StartTime: Mon Nov 16 14:56:20 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447707380225 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-145620UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-145341UTC-0600.pss StartTime: Mon Nov 16 14:53:41 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447707221507 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-145341UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-145051UTC-0600.pss StartTime: Mon Nov 16 14:50:51 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447707051277 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-145051UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-151711UTC-0500.pss StartTime: Mon Nov 16 14:17:11 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447705031500 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-151711UTC-0500.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-102544UTC-0600.pss StartTime: Mon Nov 16 10:25:44 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447691144249 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-102544UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-101504UTC-0600.pss StartTime: Mon Nov 16 10:15:04 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447690504502 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-101504UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-101124UTC-0600.pss StartTime: Mon Nov 16 10:11:24 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447690284979 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-101124UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-100513UTC-0600.pss StartTime: Mon Nov 16 10:05:13 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447689913553 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-100513UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151116-100457UTC-0600.pss StartTime: Mon Nov 16 10:04:57 CST 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1447689897121 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151116-100457UTC-0600.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151029-175513UTC+0000.pss StartTime: Thu Oct 29 12:55:13 CDT 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1446141313388 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151029-175513UTC+0000.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151029-175036UTC+0000.pss StartTime: Thu Oct 29 12:50:36 CDT 2015 ownerName: Default Operator deviceName: 401083
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1446141036644 is equal to last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: No it is not the last run start time: 0
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: OUT OF DATE RANGE - DO NOT PROCESS: PSS-20151029-175036UTC+0000.pss
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: This run lastest start Time is 1449513399335
+Dec 10, 2015 1:33:23 PM ConnectorLogger loginfo
+INFO: Wait for 30 sceonds before next run
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: Next run...
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: Reading IndigoVision Test File
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: today: Thu Dec 10 13:33:53 CST 2015 MilliSeconds: 1449430433872
+
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-123639UTC-0600.mp4 StartTime: Mon Dec 07 12:36:39 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449513399335 is equal to last run start time: 1449513399335
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: No new recordings. Skip this time..
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: The Last run lastest start time is: 1449513399335
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: This run lastest start Time is 1449513399335
+Dec 10, 2015 1:33:53 PM ConnectorLogger loginfo
+INFO: Wait for 30 sceonds before next run
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: Next run...
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: Reading IndigoVision Test File
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: today: Thu Dec 10 13:34:23 CST 2015 MilliSeconds: 1449430463904
+
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: fileName: PSS-20151207-123639UTC-0600.mp4 StartTime: Mon Dec 07 12:36:39 CST 2015 ownerName: Sgt. Drew Brantley deviceName: 401083
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: Cecking if starttime: 1449513399335 is equal to last run start time: 1449513399335
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: No new recordings. Skip this time..
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: The Last run lastest start time is: 1449513399335
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: This run lastest start Time is 1449513399335
+Dec 10, 2015 1:34:23 PM ConnectorLogger loginfo
+INFO: Wait for 30 sceonds before next run

@@ -1,0 +1,23 @@
+[	
+	
+	{
+		"ConnectorName": 	"INDIGO Connector",
+		"PollFrequency":	"15000"
+		"QMGR":				"BDYQMGR",
+		"Host":				"172.27.52.81",
+		"Port":				"1414",
+		"MetaData_Q":		"INDIGO_BWC_Q",
+		"Admin_Q":			"INDIGO_ADMIN_Q",
+		"SrvChannel":		"BWC_CHANNEL",
+		"Userid":			"BWC_User",
+		"Password":			"ibmgsc",
+		"BWC_Webserver": "http://localhost:9080/",	
+		"BWC_User":		"recorderAdmin",
+		"BWC_Password":	" ",
+		"BWC_LIMIT":	"25",
+		"BWC_MODE":"0",
+		"BWC_DEVICE":"401263",
+		"BWC_FILE":"",
+		"BWC_TIMEZONE":"CST"
+	}	
+]
